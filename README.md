@@ -1,31 +1,43 @@
 # Test-Website-1: Mikro
+
 ## Setting up the project
+
 ```
-npm install
+ - npm install
 ```
 
 ## Run the server
+
 ```
 npm run dev
 ```
+
 The app will be available at http://localhost:1342/
+
 ## Run e2e tests
+
 #### Playwright tests
+
 Install chromium:
+
 ```
 npx playwright install chromium
 ```
+
 Run the tests:
+
 ```
 npm run test:playwright
 ```
 
 #### Cypress tests
+
 ```
 npm run test:cypress
 ```
 
 ## Resources
+
 ```
 Online:
 http://test-website-1-mirko.s3-website-us-west-2.amazonaws.com/
